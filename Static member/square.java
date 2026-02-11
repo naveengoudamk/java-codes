@@ -1,0 +1,19 @@
+class demo
+{
+	static void area_of_square()
+        {
+        double s = 10;
+        double res = s*s;
+        System.out.println(res);
+    }
+}
+
+
+
+
+public class square{ 
+    public static void main(String [] args)
+    {
+       demo.area_of_square();
+    }
+}

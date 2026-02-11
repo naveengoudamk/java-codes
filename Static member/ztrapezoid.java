@@ -1,0 +1,18 @@
+class demo
+{
+	static void area_of_trapezoid(double a , double b ,  double h )
+        {
+        
+        double res = 0.5*(a+b)*h;
+        System.out.println(res);
+    }
+}
+
+
+
+public class ztrapezoid{
+    public static void main(String [] args)
+    {
+       demo.area_of_trapezoid(5,10,2);
+    }
+}
