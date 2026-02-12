@@ -1,22 +1,15 @@
-class Sample 
-{
-    static double area ()
-    {
-        double r = 10;
-        double res = 3.14 * r * r;
-        System.out.println("area of the circle : " + res);
-
-        return res;
-    }
-
+class demo{
+	static void area(){
+		double r = 10;
+		double res = 3.142*r*r;
+        System.out.println(res);
+	}	
 }
 
-public class Circle 
-{
+
+public class circle{
     public static void main(String [] args)
     {
-        Sample.area();
+       demo.area();
     }
-
-    
 }
