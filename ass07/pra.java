@@ -1,17 +1,16 @@
 class Circle 
 {
-    void area()
+    void area(int r )
     {
-        int r = 10;
+    
         double area = 3.14 * r * r;
         System.out.println("area of the circle :" + area);
     }
 }
 class Ellipse 
 {
-    int a = 10;
-    int b = 15;
-    void area()
+   
+    void area( int a , int b )
     {
         double area = 3.14 * a * b;
         System.out.println("area of Ellipse :" + area);
@@ -20,76 +19,68 @@ class Ellipse
 }
 class Rect 
 {
-    void area()
+    void area( int b , int h )
     {
-        int b = 10;
-        int h = 20;
+        
         int res = b * h;
         System.out.println("area of the recangle : " + res);
     }
 }
-public class Trap 
+class Trap 
 {
-    void area()
+    void area(int a , int b , int h)
     {
-        int a = 10;
-        int b = 10;
-        int h = 10;
         double res = 0.5 * (a + b) * h;
         System.out.println(res);
     }
 }
 class parall 
 {
-    void area()
+    void area(int h , int b)
     {
-        int h = 10;
-        int b = 10;
         double res = b * h ;
         System.out.println(" area of parallellogram :" + res);
     }
 }
-public class Tri 
+class Tri 
 {
-    void area()
+    void area(int b , int h)
     {
-        int b = 10;
-        int h =10;
+        
         double area = 0.5 * b * h;
         System.out.println(" area of the triangle :" + area);
     }
 }
 class Sector
 {
-    void area()
+    void area(int a , int b)
     {
-        int a = 10;
-        int b = 10;
+        
         double area = 3.14 * a * b;
         System.out.println("area of the :" + area); 
     }
 }
 class Square
 {
-    void area()
+    void area(int a)
     {
-        int a = 10;
+   
         int area = a * a;
         System.out.println("are of the Square :" + area);
     }
 }
-public class pra 
+class pra 
 {
     public static void main(String[] args) 
     {
-        new Circle().area();
-        new Ellipse().area();
-        new Rect().area();
-        new Sector().area();
-        new Square().area();
-        new Trap().area();
-        new Tri().area();
-        new parall().area();
+        new Circle().area(10);
+        new Ellipse().area(10 , 15);
+        new Rect().area(10 , 20);
+        new Sector().area(10 ,10);
+        new Square().area(10);
+        new Trap().area(10 , 10 ,10 );
+        new Tri().area(10 ,10);
+        new parall().area(10 ,10);
         
     }
     
