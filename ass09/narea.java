@@ -1,84 +1,78 @@
 class Demo
 {
-    double circle()
+    void circle()
     {
         double r = 10;
         double res = 3.14 * r * r ;
-        return res;
+        System.out.println("area of the circle :" + res);
     }
-     double rect()
+     void rect()
     {
         int a = 15;
         int b = 10;
         int res = a * b;
-        return res;
+        System.out.println("area of the reactangle :" + res);
     }
-     double parl()
+     void parl()
     {
         int a = 15;
         int b = 10;
         int res = a * b;
-        return res;
+        System.out.println("area of the paralleogram :" + res);
     }
-     double trap()
+     void trap()
     {
         int a = 15;
         int b = 10;
         int h = 10;
         double res = 0.5*(a+b)*h;
-        return res;
+        System.out.println("area of the Trapezodal :" + res);
     }
-     double tri()
+     void tri()
     {
         int h = 15;
         int b = 10;
         double res =0.5 * h * b;
-        return res;
+        System.out.println("area of the triangle :" + res);
     }
-     double sqr()
+     void sqr()
     {
         int a = 15;
         int res = a * a;
-        return res;
+        System.out.println("area of the square :" + res);
     }
-     double ellip()
+     void ellip()
     {
         int a = 15;
         int b = 10;
         double res = 3.5 * a * b;
-        return res;
+        System.out.println("area of the elipse :" + res);
     }
-     double sect()
+     void sect()
     {
         int r = 15;
         double theta = 30;
         double res = 3.14 * r * r * theta;
-        return res;
+        System.out.println("area of the sector :" + res);
     }
     
 
 }
 
-public class Area
+public class Narea
 
 {
     public static void main(String[] args) 
     {
         Demo D1 = new Demo();
-        System.out.println("area of the circle : " + D1.circle());
-        System.out.println("area of the rectangle " + D1.rect());
-        System.out.println("area of the Parallelogram " + D1.parl());
-        System.out.println("area of the Trapezoidal : " + D1.trap());
-        System.out.println("area of the Triangle " + D1.tri());
-        System.out.println("area of the square " + D1.sqr());
-        System.out.println("area of the ellips : " + D1.ellip());
-        System.out.println("area of the Sector " + D1.sect());
-
-        
-        
-
-        
-
+        D1.circle();
+        D1.rect();
+        D1.parl();
+        D1.trap();
+        D1.tri();
+        D1.sqr();
+        D1.ellip();
+        D1.sect();
     }
     
 }
