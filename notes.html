@@ -3,367 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>java notes </title>
+    <title>Java Notes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1><b>Java Notes</b></h1>
-    <hr>
-    What is  <b>Java?</b> <br>
-    Java is an object-oriented programming language that is used to develop Java software. <br>
-    Why Java is called OOPL?  <br>
-    because it obeys the rule of the OOP concept.<br>
-    such as <br>
-    <ol>
-        <li>
-            abstract
-        </li>
-        <li>
-            polymorphism
-        </li>
-        <li>
-            inheritance
-        </li>
-        <li>
-            encapsulation
-        </li>
-    </ol>
-    what is lanagugae ? <br> Language is the medium that is used to communicate between two entities. <br>
-    what is programming language ? <br> A programming language is a medium that communicates between a human and a machine. <br>
-    How is a programming language built? <br> 
-    <pre>[data types] > [tokens] > [statements] > [programs] > [software] </pre> 
-    <hr>
-    <h4>Tokens</h4>
-    Tokens are the smallest unit of the java program . <br>
-    In tokens we have <br>
-    <ol>
-        <li>Identifiers</li>
-        <ul>
-            <li>Identifiers is the name given to the Java program</li>
-            <li>Identifiers cannot be the Keywords</li>
-        </ul>
-        <li>Keywords</li>
-        <ul>
-            <li>Keywords are the  <b>Predefined words</b> which as its own meaning</li>
-            <li>In java we have 50 keywords </li> <br>
-            <table>
-  <tbody>
-    <tr>
-      <td>abstract</td>
-      <td>continue</td>
-      <td>for</td>
-      <td>new</td>
-      <td>switch</td>
-    </tr>
-    <tr>
-      <td>assert***</td>
-      <td>default</td>
-      <td>goto*</td>
-      <td>package</td>
-      <td>synchronized</td>
-    </tr>
-    <tr>
-      <td>boolean</td>
-      <td>do</td>
-      <td>if</td>
-      <td>private</td>
-      <td>this</td>
-    </tr>
-    <tr>
-      <td>break</td>
-      <td>double</td>
-      <td>implements</td>
-      <td>protected</td>
-      <td>throw</td>
-    </tr>
-    <tr>
-      <td>byte</td>
-      <td>else</td>
-      <td>import</td>
-      <td>public</td>
-      <td>throws</td>
-    </tr>
-    <tr>
-      <td>case</td>
-      <td>enum****</td>
-      <td>instanceof</td>
-      <td>return</td>
-      <td>transient</td>
-    </tr>
-    <tr>
-      <td>catch</td>
-      <td>extends</td>
-      <td>int</td>
-      <td>short</td>
-      <td>try</td>
-    </tr>
-    <tr>
-      <td>char</td>
-      <td>final</td>
-      <td>interface</td>
-      <td>static</td>
-      <td>void</td>
-    </tr>
-    <tr>
-      <td>class</td>
-      <td>finally</td>
-      <td>long</td>
-      <td>strictfp**</td>
-      <td>volatile</td>
-    </tr>
-    <tr>
-      <td>const*</td>
-      <td>float</td>
-      <td>native</td>
-      <td>super</td>
-      <td>while</td>
-    </tr>
-  </tbody>
-</table>
 
-<div class="notes">
-  <p>* not used</p>
-  <p>** added in 1.2</p>
-  <p>*** added in 1.4</p>
-    <p>**** added in 5.0</p>
-</div>
-           
-        </ul>
-        <li>Literals</li>
-        <ul>
-            <li>Literls are the values which is used to perform some opertaion</li>
-            <li>in literals we have </li>
-            <ol type="I">
-                <li>Numerical literalss</li>
-                <ol type="i">
-                    <li>Integer literals -> 1, 2, 100, etc</li>
-                    <li>Decimal literals -> 1.1 , 0.9, etc</li>
-                </ol>
-                <li>String LIterals  -> "hello" , "9" , "$" , "$#", etc</li>
-                <li>Character literals -> 'A' , '9' , 'a' etc</li>
-                <li>Boolean Literals -> True , False </li>
-            </ol>
-        </ul>
-        <li>Operators</li>
-        <p>operators are the symbols which is used to perform some operations</p>
-        <ol>
-            <li>Uniary Operators</li>
-            <ul>
-                <li>Postfix</li>
-                <li>Prefix</li>
-            </ul>
-            <li>Arthmetic Operators</li>
-            <ul>
-                <li>Additive</li>
-                <li>Multiplicative</li>
-            </ul>
-            <li>Shift</li>
-            <ul><li>shift only</li></ul>
-            <li>Relational Operator</li>
-            <ul>
-                <li>Comparision</li>
-                <li>Equality</li>
-            </ul>
-            <li>Bitwise Operator</li>
-            <ul>
-                <li>Bitwise AND</li>
-                <li>Exclusive OR</li>
-                <li>Inclusive OR</li>
-            </ul>
-            <li>Logical Operators</li>
-            <ul>
-                <li>logical AND</li>
-                <li>Logical OR</li>
-            </ul>
-            <li>Ternory</li>
-            <Ul>
-                <li>Ternary only
-                </li>
-            </Ul>
-            <li>Assigment</li>
-        </ol>
-        <li>Separators</li>
-        <p>seperators are used to separate the given code</p>
-        <ul>
-            <li>{} -> Braces</li>
-            <li>[] -> Brackets</li>
-            <li>() -> Paranthesis</li>
-            <li>; -> Semicolon</li>
-            <li>, -> Comma </li>
-        </ul>
-        <li>Comments</li>
-        <p>Comments are used to Provide additional imformation to the java program </p>
-        <p>In comments we have 2 types</p>
-        <ol>
-            <li>Single line Comments </li>
-            <pre> 
-                // single line comments 
-            </pre>
-            <li>Block Comments</li>
-            <pre>
-                /* --------------
-                   --------------
-                   -------------- */
-            </pre>
+<header>
+    <h1>Java Notes</h1>
+</header>
 
-        </ol>
-    </ol>
-    <br>
-    <hr>
-    <h3>Logics</h3>
-    <Pre>
-        1. int a =10;
-           print a;
+<section>
+    <h2>What is Java?</h2>
+    <p>Java is an object-oriented programming language used to develop software applications.</p>
 
-        <b>Output</b> : 10
-        <br>
-        2. int b =20;
-           print a;
+    <h2>Why is Java called an OOP Language?</h2>
+    <p>Because it follows the core principles of Object-Oriented Programming:</p>
+    <ul>
+        <li>Abstraction</li>
+        <li>Polymorphism</li>
+        <li>Inheritance</li>
+        <li>Encapsulation</li>
+    </ul>
+</section>
 
-        <b>Output</b> : 20
-        <br>
-        3. int a =10;
-            int b = 20;
-           print a +b;
+<section>
+    <h2>Language Basics</h2>
+    <p><strong>Language:</strong> A medium used to communicate between two entities.</p>
+    <p><strong>Programming Language:</strong> A medium used for communication between humans and machines.</p>
 
-        <b>Output</b> : 30
-        <br>
-        4. int x =20;
-            int y = 40;
-            int z = x - y; 
+    <h3>How a Programming Language is Built</h3>
+    <pre>[Data Types] → [Tokens] → [Statements] → [Programs] → [Software]</pre>
+</section>
 
-           print Z;
+<section>
+    <h2>Tokens in Java</h2>
+    <p>Tokens are the smallest units of a Java program.</p>
 
-        <b>Output</b> : 50
-        <br>
-        5. int a =10;
-            int b = a;
+    <h3>Types of Tokens</h3>
 
-           print a+b;
+    <h4>1. Identifiers</h4>
+    <ul>
+        <li>Names given to classes, variables, and methods</li>
+        <li>Cannot be Java keywords</li>
+    </ul>
 
-        <b>Output</b> : 20
-        <br>
-        6. int b = 8;
-            int a = b;
-            int z = a;
+    <h4>2. Keywords</h4>
+    <p>Keywords are predefined words with special meaning.</p>
 
-           print a+b+z;
+    <table>
+        <thead>
+            <tr>
+                <th>Keyword</th>
+                <th>Keyword</th>
+                <th>Keyword</th>
+                <th>Keyword</th>
+                <th>Keyword</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>abstract</td><td>continue</td><td>for</td><td>new</td><td>switch</td></tr>
+            <tr><td>boolean</td><td>do</td><td>if</td><td>private</td><td>this</td></tr>
+            <tr><td>break</td><td>double</td><td>implements</td><td>protected</td><td>throw</td></tr>
+            <tr><td>byte</td><td>else</td><td>import</td><td>public</td><td>throws</td></tr>
+            <tr><td>case</td><td>extends</td><td>instanceof</td><td>return</td><td>try</td></tr>
+            <tr><td>char</td><td>final</td><td>interface</td><td>static</td><td>void</td></tr>
+            <tr><td>class</td><td>finally</td><td>long</td><td>super</td><td>while</td></tr>
+        </tbody>
+    </table>
 
-        <b>Output</b> : 24
-        <br>
-        7. int a =10;
-            int b = a - 5
-                a=10;
-           print a +b ;
+    <h4>3. Literals</h4>
+    <ul>
+        <li>Integer → 1, 10</li>
+        <li>Decimal → 1.5, 0.9</li>
+        <li>String → "Hello"</li>
+        <li>Character → 'A'</li>
+        <li>Boolean → true, false</li>
+    </ul>
 
-        <b>Output</b> : 15
-        <br>
-    </Pre>
-    <br><hr>
-    <h1>Java Architecture </h1>
-    <img src="" alt="java architecture">
-    <hr>
-    <h3>Java Types</h3>
-    <p>in java we have 4 types</p>
-    <ol>
+    <h4>4. Operators</h4>
+    <ul>
+        <li>Unary</li>
+        <li>Arithmetic</li>
+        <li>Relational</li>
+        <li>Logical</li>
+        <li>Bitwise</li>
+        <li>Ternary</li>
+        <li>Assignment</li>
+    </ul>
+
+    <h4>5. Separators</h4>
+    <p>{ }  [ ]  ( )  ;  ,</p>
+
+    <h4>6. Comments</h4>
+    <pre>
+// Single line comment
+
+/* Block comment */
+    </pre>
+</section>
+
+<section>
+    <h2>Java Types</h2>
+    <ul>
         <li>Class</li>
         <li>Interface</li>
         <li>Enum</li>
         <li>Annotation</li>
-    </ol>
-    <h3>1.Class</h3>
-    class is the blueprint or template to cerate objects <br> <a href="./Sample.java"> class Example </a> <br>
-    it must be saved in the form of .java extentation .
-    <h4>Comilation</h4>
-    <b>syntax: </b> <br>
-    javac file_name.java <br>
-    <b>eg: </b><br>
-    javac Sample.java <br>
-     <h4>Interpretaion</h4>
-    <b>syntax: </b> <br>
-    java file_name<br>
-    <b>eg: </b><br>
-    java Sample <br> 
-    <h5> Basic print Statements in java</h5>
-    <a href="./Solution.java"> Print statements code</a> 
-    <br> <hr>
-    <h4>Escape Method </h4>
-    like as it is in the print statement including "" double inveted coma and all.
-    class{
-        public static void main( String [] Args)
-        {
-            System.out.println("\"Hello java"\") \\ escape method
-        }
-    }
-<hr>
-<h3>We can declare Main methods as </h3>
-<ol>
-    <li>public static void main(String [] args)</li>
-    <li>static public void main(String [] args)</li>
-    <li>Static public void main(String args[])</li>
-    <li>public static void main(String...args)</li>
-</ol>
-<h4>Scope</h4>
-within braces declared are not acceable to other braces. <br>
-<Pre>
-        1.  {
-            int a =10;
-            Sout(a);
-            }
-        <b>Output</b> : 10
-        <br>
-        2.  {
-            int a =10;
-            Sout(b);
-            }
-            {
-            int b =20;
-            Sop(a);
-            }
-        <b>Output</b> : error
-        <br>
-        
-        <h2>Note:</h2>
-        <pre>
-            we can have a outside the block and inside the block and whenever we print the preferances is taken for the load block .
-            <br>
-            int a = 20;
-            {
-                int a = 10;
-                Sop(a);
-            }
-            o/p -> 10
-            </pre>
-            <hr>
+    </ul>
+</section>
 
-            <h2>Class members</h2>
-            <ol>
-                <li>Variable or data members</li>
-                it is used to store the data
-                <li>Method or Data member</li>
-                it is used to perform some operation
-                <li>Constuctor</li>
-                it is used to initilize variable
-            </ol>
+<section>
+    <h2>Class</h2>
+    <p>A class is a blueprint used to create objects.</p>
 
-            class member : <br>
-            class Class_name
-            {
-                variable / data member <br>
-                method / function member <br>
-                Constctor;
-            }
-            <hr>
-            
-            
-        
+    <h3>Compilation</h3>
+    <pre>javac FileName.java</pre>
 
+    <h3>Execution</h3>
+    <pre>java FileName</pre>
+</section>
 
+<section>
+    <h2>Main Method Variations</h2>
+    <ul>
+        <li>public static void main(String[] args)</li>
+        <li>static public void main(String[] args)</li>
+        <li>public static void main(String... args)</li>
+    </ul>
+</section>
 
-   
+<section>
+    <h2>Variables</h2>
+    <p>A variable is a named memory location used to store data.</p>
 
+    <h3>Primitive Types</h3>
+    <ul>
+        <li>byte</li>
+        <li>short</li>
+        <li>int</li>
+        <li>long</li>
+        <li>float</li>
+        <li>double</li>
+        <li>char</li>
+        <li>boolean</li>
+    </ul>
 
+    <h3>Non-Primitive Types</h3>
+    <ul>
+        <li>Array</li>
+        <li>String</li>
+    </ul>
+</section>
 
+<footer>
+    <p>Java Notes • Structured Reference</p>
+</footer>
 
-    
 </body>
 </html>
