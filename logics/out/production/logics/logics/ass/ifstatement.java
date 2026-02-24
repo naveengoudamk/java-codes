@@ -1,4 +1,4 @@
-package ass;
+package logics.out.production.logics.logics.ass;
 public class ifstatement {
     public static void main(String[] args) {
         int a =20;

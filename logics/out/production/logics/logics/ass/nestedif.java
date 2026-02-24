@@ -1,4 +1,4 @@
-package ass;
+package logics.out.production.logics.logics.ass;
 
 public class nestedif {
     public static void main(String[] args) {

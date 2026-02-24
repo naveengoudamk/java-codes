@@ -1,4 +1,4 @@
-package ass;
+package logics.out.production.logics.logics.ass;
 public class swap {
     static void swap2num(){
         System.out.println("Swap 2 number using temp");
