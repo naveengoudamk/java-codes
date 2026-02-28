@@ -6,7 +6,7 @@ public class sector {
         System.out.println("Area of Sector: " + area);
     }
     public static void main(String [] args){
-        sector();
+        
 
     }
 }
