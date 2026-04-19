@@ -1,4 +1,7 @@
 package practice;
+
+import mar16ass.Employee;
+
 class Employee
 {
     String detail(String name , char sec , int no)

@@ -40,7 +40,8 @@ public class Day
     for(int i = 0 ; i<str.length; i++)
     {
         char first = (char)(str[i].charAt(0)-32);
-        System.out.print(first + str[i].substring(1)+" ");
+        char last = (char)(str[i].charAt(str[i].length()-1)-32);
+        System.out.print(first + str[i].substring(1)+ last+" ");
 
     }
 
